@@ -23,7 +23,7 @@ View registered user information.
 Edit name, email, mobile number, address, and city.
 Validate email and mobile number before saving changes.
 
-API Integration
+API Integration - 
 Image Application uses the Picsum Photos API to retrieve image information.
 API endpoint:
 
@@ -39,7 +39,7 @@ Pagination parameters allow the application to request images in batches rather 
 
 API documentation: https://picsum.photos/
 
-State Management and Data Persistence
+State Management and Data Persistence - 
 The React Context API provides centralized management for:
 1. Registered user information
 2. Login session status
@@ -47,7 +47,7 @@ The React Context API provides centralized management for:
 4. Profile updates
 AsyncStorage stores user data, session status, and favorite images locally, allowing selected information to remain available after the application restarts.
 
-Validation
+Validation - 
 The application includes reusable validation functions for:
 Email address format
 Ten-digit mobile numbers
@@ -56,7 +56,7 @@ Required registration fields
 Password and confirmation matching
 Profile update fields
 
-Future Enhancements
+Future Enhancements - 
 Implement secure backend authentication and password hashing.
 Store favorites separately for each user account.
 Add password reset and email verification.
@@ -66,11 +66,11 @@ Add automated unit and integration tests.
 Improve API error handling and prevent duplicate pagination requests.
 Add image caching and offline support.
 
-Security Considerations
+Security Considerations - 
 This project uses local authentication for demonstration purposes. Passwords are currently stored as plaintext in AsyncStorage, which is not appropriate for production applications.
 A production-ready version should use secure backend authentication, server-side password hashing, appropriate session management, and secure storage for sensitive tokens.
 
-Learning Outcomes
+Learning Outcomes - 
 This project demonstrates practical experience with:
 Building cross-platform applications using React Native and Expo.
 Developing reusable, typed UI components.
