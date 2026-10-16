@@ -81,3 +81,15 @@ Implementing search, filtering, pagination, and pull-to-refresh.
 Persisting application data using AsyncStorage.
 Validating forms and handling errors.
 Using native device capabilities for image downloads
+
+Download the APP
+
+**[⬇️ Download Image App APK](https://github.com/VishakhaC03/Image-App/releases/latest)**
+
+Download the APK to your Android phone and open it to install PixelVault. If prompted, allow installation from your browser or file manager.
+
+
+
+Installation
+
+Download the APK on your Android device and open the file to install the application. Android may ask you to allow installation from your browser or file manager.
